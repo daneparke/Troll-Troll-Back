@@ -10,7 +10,7 @@ exports.up = function (knex, Promise) {
         unit.integer('mvRange')
         unit.integer('health')
         unit.integer('CD')
-        unit.string('img')
+        unit.string('img', [400])
     })
 };
 

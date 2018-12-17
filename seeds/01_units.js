@@ -5,48 +5,48 @@ exports.seed = function (knex, Promise) {
       // Inserts seed entries
       return knex('units').insert([
         {
-          type: 'knight',
+          type: 'Knight',
           health: 13,
           mana: 0,
           attack: 4,
           defense: 3,
-          atkRange: 1,
-          mvRange: 4,
-          CD: 2,
-          img: 'blah'
+          attackRange: 1,
+          moveRange: 4,
+          coolDown: 2,
+          image: '../trolls-knight.png'
         },
         {
-          type: 'mage',
+          type: 'Mage',
           health: 7,
           mana: 3,
           attack: 6,
           defense: 0,
-          atkRange: 4,
-          mvRange: 1,
-          CD: 2,
-          img: 'blah'
+          attackRange: 4,
+          moveRange: 1,
+          coolDown: 2,
+          image: '../trolls-mage.png'
         },
         {
-          type: 'ranger',
+          type: 'Ranger',
           health: 9,
           mana: 0,
           attack: 3,
           defense: 1,
-          atkRange: 6,
-          mvRange: 5,
-          CD: 2,
-          img: 'blah'
+          attackRange: 6,
+          moveRange: 5,
+          coolDown: 2,
+          image: '../trolls-ranger.png'
         },
         {
-          type: 'cleric',
+          type: 'Cleric',
           health: 8,
           mana: 3,
           attack: 1,
           defense: 0,
-          atkRange: 3,
-          mvRange: 4,
-          CD: 3,
-          img: 'blah'
+          attackRange: 3,
+          moveRange: 4,
+          coolDown: 3,
+          image: '../trolls-cleric.png'
         }
       ]);
     });

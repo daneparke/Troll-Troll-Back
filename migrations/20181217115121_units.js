@@ -6,11 +6,10 @@ exports.up = function (knex, Promise) {
         unit.integer('mana')
         unit.integer('attack')
         unit.integer('defense')
-        unit.integer('atkRange')
-        unit.integer('mvRange')
-        unit.integer('health')
-        unit.integer('CD')
-        unit.string('img', [400])
+        unit.integer('attackRange')
+        unit.integer('moveRange')
+        unit.integer('coolDown')
+        unit.string('image', [400])
     })
 };
 

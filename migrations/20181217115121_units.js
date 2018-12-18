@@ -9,6 +9,7 @@ exports.up = function (knex, Promise) {
         unit.integer('attackRange')
         unit.integer('moveRange')
         unit.integer('coolDown')
+        unit.integer('price')
         unit.string('image', [400])
     })
 };

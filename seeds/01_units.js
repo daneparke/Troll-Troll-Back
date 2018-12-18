@@ -13,6 +13,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 1,
           moveRange: 4,
           coolDown: 2,
+          price: 20,
           image: '../trolls-knight.png'
         },
         {
@@ -24,6 +25,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 4,
           moveRange: 1,
           coolDown: 2,
+          price: 20,
           image: '../trolls-mage.png'
         },
         {
@@ -35,6 +37,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 6,
           moveRange: 5,
           coolDown: 2,
+          price: 20,
           image: '../trolls-ranger.png'
         },
         {
@@ -46,6 +49,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 3,
           moveRange: 4,
           coolDown: 3,
+          price: 20,
           image: '../trolls-cleric.png'
         }
       ]);

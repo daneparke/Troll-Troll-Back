@@ -6,5 +6,18 @@ module.exports = {
     },
     getUnitById(id) {
         return db('units').where('id', id)
+    },
+    getAllUsers() {
+        return db.select().from('users')
+    },
+    getUserById(id) {
+        return db('users').where('id', id)
+    },
+    createUser(newUser) {
+        return db('users').insert(newUser).returning('*')
+    },
+    deleteUser(id) {
+        return db('users').where('id', id).delete()
     }
+
 }

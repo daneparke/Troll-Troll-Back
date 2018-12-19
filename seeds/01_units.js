@@ -14,7 +14,7 @@ exports.seed = function (knex, Promise) {
           moveRange: 4,
           coolDown: 2,
           price: 20,
-          image: '../trolls-knight.png'
+          image: 'http://ssouls.wdfiles.com/local--files/troops:overview/Paladin.png'
         },
         {
           type: 'Mage',
@@ -26,7 +26,7 @@ exports.seed = function (knex, Promise) {
           moveRange: 1,
           coolDown: 2,
           price: 20,
-          image: '../trolls-mage.png'
+          image: 'https://cdn.worldofwargraphs.com/img/human_mage.png'
         },
         {
           type: 'Ranger',
@@ -38,7 +38,7 @@ exports.seed = function (knex, Promise) {
           moveRange: 5,
           coolDown: 2,
           price: 20,
-          image: '../trolls-ranger.png'
+          image: 'https://vignette.wikia.nocookie.net/dragonsdogma/images/6/6e/MAGICK_ARCHER.png/revision/latest?cb=20120921031950'
         },
         {
           type: 'Cleric',
@@ -50,7 +50,7 @@ exports.seed = function (knex, Promise) {
           moveRange: 4,
           coolDown: 3,
           price: 20,
-          image: '../trolls-cleric.png'
+          image: 'https://ya-webdesign.com/images/anime-wizard-png-4.png'
         }
       ]);
     });

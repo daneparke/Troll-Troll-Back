@@ -10,6 +10,7 @@ exports.up = function (knex, Promise) {
         unit.integer('moveRange')
         unit.integer('coolDown')
         unit.integer('price')
+        unit.integer('activeCoolDown')
         unit.integer('individualID')
         unit.string('image', [400])
     })

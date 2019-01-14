@@ -13,6 +13,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 1,
           moveRange: 4,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'http://ssouls.wdfiles.com/local--files/troops:overview/Paladin.png'
         },
@@ -25,6 +26,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 1,
           moveRange: 4,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'http://ssouls.wdfiles.com/local--files/troops:overview/Paladin.png'
         },
@@ -37,6 +39,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 1,
           moveRange: 4,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'http://ssouls.wdfiles.com/local--files/troops:overview/Paladin.png'
         },
@@ -49,6 +52,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 1,
           moveRange: 4,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'http://ssouls.wdfiles.com/local--files/troops:overview/Paladin.png'
         },
@@ -61,6 +65,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 1,
           moveRange: 4,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'http://ssouls.wdfiles.com/local--files/troops:overview/Paladin.png'
         },
@@ -73,6 +78,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 1,
           moveRange: 4,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'http://ssouls.wdfiles.com/local--files/troops:overview/Paladin.png'
         },
@@ -85,6 +91,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 4,
           moveRange: 1,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'https://cdn.worldofwargraphs.com/img/human_mage.png'
         },
@@ -97,6 +104,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 4,
           moveRange: 1,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'https://cdn.worldofwargraphs.com/img/human_mage.png'
         },
@@ -109,6 +117,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 6,
           moveRange: 5,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'https://vignette.wikia.nocookie.net/dragonsdogma/images/6/6e/MAGICK_ARCHER.png/revision/latest?cb=20120921031950'
         },
@@ -121,6 +130,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 6,
           moveRange: 5,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'https://vignette.wikia.nocookie.net/dragonsdogma/images/6/6e/MAGICK_ARCHER.png/revision/latest?cb=20120921031950'
         },
@@ -133,6 +143,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 6,
           moveRange: 5,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'https://vignette.wikia.nocookie.net/dragonsdogma/images/6/6e/MAGICK_ARCHER.png/revision/latest?cb=20120921031950'
         },
@@ -145,6 +156,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 6,
           moveRange: 5,
           coolDown: 2,
+          activeCoolDown: 0,
           price: 20,
           image: 'https://vignette.wikia.nocookie.net/dragonsdogma/images/6/6e/MAGICK_ARCHER.png/revision/latest?cb=20120921031950'
         },
@@ -157,6 +169,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 3,
           moveRange: 4,
           coolDown: 3,
+          activeCoolDown: 0,
           price: 20,
           image: 'https://ya-webdesign.com/images/anime-wizard-png-4.png'
         },
@@ -169,6 +182,7 @@ exports.seed = function (knex, Promise) {
           attackRange: 3,
           moveRange: 4,
           coolDown: 3,
+          activeCoolDown: 0,
           price: 20,
           image: 'https://ya-webdesign.com/images/anime-wizard-png-4.png'
         }
